@@ -6,6 +6,9 @@
 /* Importação da fonte geral */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Jost';
     background-color: #FDFFFC;
@@ -128,7 +131,7 @@ main{
 }
 
 
-#btn-get-started{
+#btn-get-started, #see-more-link{
     color: #FDFFFC;
     text-decoration: none;
     font-family: 'jost';
@@ -143,7 +146,7 @@ main{
     transition: transform 0.3s ease;
 }
 
-#btn-get-started:hover{
+#btn-get-started:hover, #see-more-link:hover{
     transform: scale(1.05);
 }
 
@@ -156,17 +159,111 @@ main{
 /* Começo divisão de serviços */
 .services-main{
     width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px 0;
     
     box-shadow: 1px 0 1px rgba(0, 0, 0, 0.15);
-    background-color: #F8FFF7;
+    background-color: #FFF;
 }
 
 #our-services-subtitle{
-    margin: 10px;
+    margin: 10px 0 20px 0;
     font-weight: 600;
     font-size: 25px;
 }
+
+.card-service{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card-services-main{
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
+    background-color: #FDFFFC;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+}
+
+.image-services-main{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: #38DD49 3px solid;
+    border-radius: 50%;
+    width: 50px;
+
+    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-services-main:hover{
+    transform: scale(1.05);
+}
+
+.name-service{
+    font-weight: 600;
+    font-size: 18px;
+
+    background: #5CF64A;
+    background: linear-gradient(to right, #5CF64A 0%, #38DD49 46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 20px;
+}
+
+/* Fim da divisão de serviçoes */
+.about-us-main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 20px 0;
+}
+
+.description-about-us-main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+
+.element-about-us-main{
+    width: 100px;
+    height: 5px;
+    background: #5CF64A;
+    background: linear-gradient(123deg, rgba(92, 246, 74, 1) 38%, rgba(56, 221, 73, 1) 77%);
+    margin: 15px 0;
+
+    margin-top: 35px;
+    border-radius: 4px;
+}
+
+#about-us-subtitle{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/* Fim sobre nós */
+/* Inicio Parceiros */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#our-copartner-subtitle{
+    
+}
+
+/* Fim parceiros */
