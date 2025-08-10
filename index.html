@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taskcom</title>
+
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -13,21 +15,24 @@
                     <img src="/image/logo-taskcom.svg" alt="">
                 </figure>
             </section>
-            <section class="section-header">
-                <nav>
-                    <a href="#about">Sobre</a>
-                </nav>
-            </section>
-            <section class="section-header">
-                <nav>
-                    <a href="#service">Serviços</a>
-                </nav>
-            </section>
-             <section class="section-header">
-                <nav>
-                    <a href="#copartner">Parceiros</a>
-                </nav>
-            </section>
+
+            <div class="section-container-header">
+                <section class="section-header">
+                    <nav>
+                        <a href="#about" class="anchor-header">Sobre</a>
+                    </nav>
+                </section>
+                <section class="section-header">
+                    <nav>
+                        <a href="#service" class="anchor-header">Serviços</a>
+                    </nav>
+                </section>
+                 <section class="section-header">
+                    <nav>
+                        <a href="#copartner" class="anchor-header">Parceiros</a>
+                    </nav>
+                </section>
+            </div>
 
             <section id="input-header">
                 <a href="#" id="sing-up-header">Cadastre-se</a> 
@@ -39,8 +44,8 @@
 
                 <!-- Container para o fluxo inicla de boas vindas -->
                 <div class="description-intial-main">
-                    <h1 class="title-initial-main">Organize suas tarefas com <span class="name-project">Taskcom</span></h1>
-                    <p class="description-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore exercitationem, consequatur eos molestiae nihil recusandae voluptas deleniti nesciunt tempora quae?</p>
+                    <h1 class="title-initial-main">Organize suas tarefas <br> com <span class="name-project">Taskcom</span></h1>
+                    <p class="description-paragraph" id="description-initial-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore exercitationem, consequatur eos molestiae nihil recusandae voluptas deleniti nesciunt tempora quae?</p>
     
                     <nav>
                         <a href="#" id="btn-get-started">Vamos Começar!</a>
@@ -49,7 +54,7 @@
                 <!-- Container para o fluxo da imagem -->
                 <div class="image-initial-main">
                     <figure>
-                        <img src="" alt="">
+                        <img src="/image/image-rigth.png" alt="" id="image-intial-main">
                     </figure>
                 </div>
             </div>
@@ -123,7 +128,7 @@
                         <img src="" alt="" class="image-section-copartner">
                     </figure>
                 </section>
-                
+
                 <section class="section-copartner">
                     <figure>
                         <img src="" alt="" class="image-section-copartner">

@@ -1,0 +1,172 @@
+@import url(reset.css);
+
+/* Importação da fonte logo do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+/* Importação da fonte geral */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Jost';
+    background-color: #FDFFFC;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    min-width: 1vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
+}
+
+#section-image-header{
+    min-width: 180px;
+    margin-right: 20px;
+}
+
+.section-container-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+.anchor-header{
+    text-decoration: none;
+    color: #06070E;
+}
+.section-header{
+
+    font-family: 'jost';
+    font-weight: 500;
+}
+
+#input-header{
+    width: 150px;
+    display: flex;
+    align-self: center;
+}
+
+#sing-up-header{
+    color: #FDFFFC;
+    text-decoration: none;
+    font-family: 'jost';
+    font-weight: 500;
+
+    padding: 10px;
+    background: linear-gradient(123deg,rgba(92, 246, 74, 1) 38%, rgba(56, 221, 73, 1) 77%);
+    border-radius: 8px;
+
+    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#sing-up-header:hover{
+    transform: scale(1.05);
+}
+
+/* header style end */
+
+main{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background-color: #FDFFFC;
+}
+/* Divisão inicial adicionado! */
+.initial-main{
+    margin: 0 auto;
+    width: 1000px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.description-initial-main{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-initial-main{
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.name-project{
+    font-family: 'Special Gothic Expanded One';
+    font-weight: 500;
+    background: #5CF64A;
+    background: linear-gradient(to right, #5CF64A 0%, #38DD49 46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #06070E;
+}
+#description-initial-main{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+#btn-get-started{
+    color: #FDFFFC;
+    text-decoration: none;
+    font-family: 'jost';
+    font-weight: 500;
+
+    padding: 8px;
+    background: linear-gradient(347deg,rgba(92, 246, 74, 1) 38%, rgba(56, 221, 73, 1) 64%);
+    border-radius: 8px;
+
+    box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease;
+}
+
+#btn-get-started:hover{
+    transform: scale(1.05);
+}
+
+#image-initial-main{
+    height: 100px;
+}
+
+/* Fim divisão inicial */
+
+/* Começo divisão de serviços */
+.services-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.15);
+    background-color: #F8FFF7;
+}
+
+#our-services-subtitle{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
