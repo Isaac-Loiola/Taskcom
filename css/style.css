@@ -262,8 +262,37 @@ footer{
     padding: 0;
 }
 
-#our-copartner-subtitle{
-    
+.subtitle-footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+#uor-copartner-subtitle{
+    margin: 30px 0 10px 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.copartners-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-bottom: 40px;
+
+    background-color: #FFF;
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.image-section-copartner{
+    margin: 20px 0;
+    height: 60px;
+
+    transition: transform 0.3s ease;
+}
+
+.image-section-copartner:hover{
+    transform: scale(1.05);
 }
 
 /* Fim parceiros */
