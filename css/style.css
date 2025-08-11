@@ -142,7 +142,7 @@ main{
     border-radius: 8px;
 
     box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.1);
-
+    
     transition: transform 0.3s ease;
 }
 
@@ -228,23 +228,39 @@ main{
     width: 1000px;
     padding: 20px 0;
 }
-
-.description-about-us-main{
-    width: 500px;
+.description-about-us-main-container{
+    width: 1000px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 30px;
+}
 
+.description-about-main{
+   width: 500px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
 }
 
 
+.image-about-us-main{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    align-self: top;
+}
+
+#image{
+    width: 500px;
+    align-self: center;
+}
 .element-about-us-main{
     width: 100px;
     height: 5px;
     background: #5CF64A;
     background: linear-gradient(123deg, rgba(92, 246, 74, 1) 38%, rgba(56, 221, 73, 1) 77%);
     margin: 15px 0;
-
+    
     margin-top: 35px;
     border-radius: 4px;
 }
@@ -252,7 +268,54 @@ main{
 #about-us-subtitle{
     font-weight: 600;
     font-size: 28px;
+    margin-bottom: 10px;
 }
+
+.description-about-us-main-container-left{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+
+
+
+.description-about-us-main-left{
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.description-about-us-main-left{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#about-us-subtitle-final{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#description-paragraph-final{
+    text-align: center;
+}
+
+.final-element
+{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
 
 /* Fim sobre nós */
 /* Inicio Parceiros */
