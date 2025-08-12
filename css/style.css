@@ -240,6 +240,7 @@ main{
    width: 500px;
    height: 100%;
    display: flex;
+   margin-right: 65px;
    flex-direction: column;
 }
 
@@ -272,7 +273,7 @@ main{
 }
 
 .description-about-us-main-container-left{
-    width: 1000px;
+    width: 100%;
     margin: 30px auto;
     display: flex;
     flex-direction: row-reverse;
@@ -342,9 +343,8 @@ footer{
     flex-direction: row;
 
     margin-bottom: 20px;
-
     background-color: #FFF;
-    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.15);
+    
 }
 
 .image-section-copartner{
