@@ -39,9 +39,9 @@ header{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:  space-evenly;
+    justify-content:  center;
+    gap: 50px;
     align-items: center;
-    align-content: center;
 
 }
 .anchor-header{
