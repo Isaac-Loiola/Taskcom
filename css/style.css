@@ -224,7 +224,7 @@ main{
 .about-us-main{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 1000px;
     padding: 20px 0;
 }
@@ -233,6 +233,7 @@ main{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 .description-about-main{
@@ -259,8 +260,7 @@ main{
     height: 5px;
     background: #5CF64A;
     background: linear-gradient(123deg, rgba(92, 246, 74, 1) 38%, rgba(56, 221, 73, 1) 77%);
-    margin: 15px 0;
-    
+    margin: 65px 0; 
     margin-top: 35px;
     border-radius: 4px;
 }
